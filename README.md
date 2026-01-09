@@ -5,7 +5,7 @@
 - Open both repos and npm install both to download all dependencies
 - On Frontend thats it now on backend
 - After npm install, open psql in cli, see which command is for your operating system
-- run "CREATE DATABASE twitter_clone;"
+- run <CREATE DATABASE twitter_clone;>
 - for simplicity <CREATE USER admin WITH PASSWORD 'test123';>
 - <GRANT ALL PRIVILEGES ON DATABASE twitter_clone TO admin;>
 - <ALTER DATABASE twitter_clone OWNER TO admin;>
