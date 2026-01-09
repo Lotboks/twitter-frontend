@@ -15,11 +15,11 @@
 - next exit psql and run "npx prisma db push" to create the schema for the db with prisma
 
 - now everything should work and you can start the BE server first "npm run start:dev" localhost:3000
-- then the FE server "npm run dev"
+- then the FE server "npm run dev" localhost:3001, localhost:3001/register, localhost:3001/login, localhost:3001/feed, localhost:3001/profile...
 
   
 
-once you do that go to localhost:3000/register and create an account, the account has a jwt security check,
+once you do that go to localhost:3001/register and create an account, the account has a jwt security check,
 when you create the account you will be redirected to a login page, enter your user and password and you are now on twatter.
 Its a simple clone nothing majestic you can create a post, once created you can comment like and open the profile of the user,
 you can also register another user to comment on each others posts. that is pretty much it. 😅
