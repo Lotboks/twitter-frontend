@@ -31,6 +31,7 @@ but i tried my best to create something with nestJS and nextJS both of which i h
 i couldev created this app with python since thats what im comfortable with but i saw no point in that since the interest is in next and nest.
 Since i started the project i developed it with the documentation, my past experience with other languages architecture, windsurf and chatGPT,
 its deffinetly not the most beautifull code i presume, but it was what i could come up with in that short period of time.
+If you have any more questions, you can contact me on email or phone.
 
 Best Regards
 Aleksandar.
