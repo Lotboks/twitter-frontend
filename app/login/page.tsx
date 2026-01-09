@@ -14,12 +14,14 @@ export default function LoginPage() {
   const [error, setError] = useState('');
 
   const handleLogin = async () => {
+    setError('');
     try {
       const res = await loginUser({ username, password });
       login(res.access_token, res.user);
       router.push('/feed');
     } catch (err) {
       if (err instanceof Error) setError(err.message);
+      else setError('Login failed');
     }
   };
 
